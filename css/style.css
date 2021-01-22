@@ -362,8 +362,8 @@ a {
   }
 
   .menu-btn,
-  .menu-btn::before,
-  .menu-btn::after {
+  .menu-btn_top,
+  .menu-btn_bottom {
     content: '';
     display: block;
     height: 2px;
@@ -372,12 +372,12 @@ a {
     position: absolute;
   }
 
-  .menu-btn::before {
-    top: 6px;
+  .menu-btn_top {
+    top: 25px;
   }
 
-  .menu-btn::after {
-    bottom: 6px;
+  .menu-btn_bottom {
+    bottom: 25px;
   }
 
   .theme-inner {
