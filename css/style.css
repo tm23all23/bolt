@@ -58,7 +58,7 @@ a {
   color: #333;
 }
 
-main {
+.bolt-main {
   padding-top: 66px;
 }
 
@@ -154,7 +154,6 @@ main {
   vertical-align: bottom;
 }
 
-
 .work-inner-text {
   display: flex;
   justify-content: center;
@@ -246,6 +245,7 @@ main {
 
 .sns-icons a {
   height: 100%;
+  display: block;
 }
 
 .sns-icons:hover {
@@ -272,74 +272,74 @@ main {
 
 @media screen and (max-width: 1199px) {
 
-.inner {
-width: 97%;
-}
+  .inner {
+  width: 97%;
+  }
 
-.section-inner {
-  padding: 50px 0 25px 0;
-  display: block;
-  text-align: center;
-}
+  .section-inner {
+    padding: 50px 0 25px 0;
+    display: block;
+    text-align: center;
+  }
 
-.section-box {
-  margin-top: 20px;
-}
+  .section-box {
+    margin-top: 20px;
+  }
 
-.section-box h2 {
-  margin-top: 0;
-}
+  .section-box h2 {
+    margin-top: 0;
+  }
 
-.section-box p {
-  margin: 0 auto;
-  margin-top: 35px;
-  width: 90%;
-}
+  .section-box p {
+    margin: 0 auto;
+    margin-top: 35px;
+    width: 90%;
+  }
 
-.work-inner-img {
-  flex-direction: column;
-  text-align: center;
-}
+  .work-inner-img {
+    flex-direction: column;
+    text-align: center;
+  }
 
-.img-container-items {
-  margin: 0;
-}
+  .img-container-items {
+    margin: 0;
+  }
 
-.img-container-items:nth-child(3n+1) {
-  margin-top: 80px;
-}
+  .img-container-items:nth-child(3n+1) {
+    margin-top: 80px;
+  }
 
-.img-container-items:first-child {
-  margin-top: 0;
-}
+  .img-container-items:first-child {
+    margin-top: 0;
+  }
 
-.work-inner-text {
-  display: block;
-  margin-top: 80px;
-}
+  .work-inner-text {
+    display: block;
+    margin-top: 80px;
+  }
 
-.work-inner-text p {
-  margin: 0 auto;
-  width: 90%;
-}
+  .work-inner-text p {
+    margin: 0 auto;
+    width: 90%;
+  }
 
-.work-inner-text a {
-  margin-left: 0;
-  margin-top: 40px;
-}
+  .work-inner-text a {
+    margin-left: 0;
+    margin-top: 40px;
+  }
 
-.ourskills-inner-list {
-  display: block;
-}
+  .ourskills-inner-list {
+    display: block;
+  }
 
-.ourskills-inner-items {
-  margin-left: 0;
-  margin-top: 88px;
-}
+  .ourskills-inner-items {
+    margin-left: 0;
+    margin-top: 88px;
+  }
 
-.ourskills-inner-items:first-child {
-  margin-top: 0;
-}
+  .ourskills-inner-items:first-child {
+    margin-top: 0;
+  }
 
 }
 
@@ -354,7 +354,7 @@ width: 97%;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 15px;
+    width: 20px;
     height: 12px;
     padding: 10px;
     border: 1px solid #ddd;
@@ -367,7 +367,7 @@ width: 97%;
     content: '';
     display: block;
     height: 2px;
-    width: 15px;
+    width: 20px;
     background-color: #ddd;
     position: absolute;
   }
