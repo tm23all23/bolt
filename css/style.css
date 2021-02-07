@@ -351,9 +351,6 @@ a {
 
   .hamburger-menu {
     float: right;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 20px;
     height: 12px;
     padding: 10px;
@@ -361,23 +358,17 @@ a {
     border-radius: 4px;
   }
 
-  .menu-btn,
-  .menu-btn_top,
-  .menu-btn_bottom {
+  .hamburger-menu span {
     content: '';
     display: block;
     height: 2px;
     width: 20px;
+    margin-top: 4px;
     background-color: #ddd;
-    position: absolute;
   }
 
-  .menu-btn_top {
-    top: 25px;
-  }
-
-  .menu-btn_bottom {
-    bottom: 25px;
+  .hamburger-menu span:first-child {
+    margin-top: 0px;
   }
 
   .theme-inner {
